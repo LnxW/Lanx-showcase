@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+/* Hero */
+.hero {
+  height: 40vh;
+  background: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Slideshow */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: 50px auto;
+}
+.slides {
+  display: none;
+}
+.slides img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f4f4f4;
+  margin-top: 50px;
+}
